@@ -1,0 +1,68 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- ********************** -->
+    <!-- Material Drawer Dimens -->
+    <!-- ********************** -->
+    <!-- Definition for the Drawer Slider margin right -->
+    <dimen name="material_drawer_margin">56dp</dimen>
+    <!-- General padding value -->
+    <dimen name="material_drawer_padding">8dp</dimen>
+    <!-- General vertical padding values -->
+    <dimen name="material_drawer_vertical_padding">16dp</dimen>
+    <!-- General icon margin above and under the icons -->
+    <dimen name="material_drawer_icon_margin">12dp</dimen>
+    <!-- Definition for the primary item -->
+    <dimen name="material_drawer_primary">48dp</dimen>
+    <dimen name="material_drawer_primary_icon">22dp</dimen>
+    <dimen name="material_drawer_primary_text">14sp</dimen>
+    <!-- Definition for the secondary item -->
+    <dimen name="material_drawer_secondary">44dp</dimen>
+    <dimen name="material_drawer_secondary_icon">22dp</dimen>
+    <dimen name="material_drawer_secondary_text">14sp</dimen>
+
+    <!-- Toolbar Padding -->
+    <dimen name="tool_bar_top_padding">0dp</dimen>
+
+    <dimen name="nav_drawer_width">260dp</dimen>
+
+
+    <dimen name="cover_width">220dp</dimen>
+    <dimen name="cover_height">280dp</dimen>
+
+    <!-- General dimensions -->
+    <dimen name="toast_hover">64dp</dimen>
+    <dimen name="buttontoast_hover">24dp</dimen>
+    <dimen name="buttontoast_x_padding">12dp</dimen>
+    <dimen name="cardtoast_margin">4dp</dimen>
+
+    <dimen name="sliding_menu_width">80dp</dimen>
+
+    <dimen name="parallax_image_height">220dp</dimen>
+
+    <!-- *********************************material checkbox *************************************-->
+    <!-- CheckBox Default -->
+    <dimen name="checkbox_width">48dp</dimen>
+    <dimen name="checkbox_height">48dp</dimen>
+    <dimen name="checkbox_thumb_size">20dp</dimen>
+    <dimen name="checkbox_corner_radius">2dp</dimen>
+    <dimen name="checkbox_border_width">2dp</dimen>
+    <dimen name="checkbox_mark_width">2dp</dimen>
+    <dimen name="checkbox_ripple_radius">24dp</dimen>
+    <dimen name="checkbox_mark_left_right_padding">3dp</dimen>
+    <dimen name="checkbox_mark_top_padding">4dp</dimen>
+    <dimen name="checkbox_mark_bottom_padding">5dp</dimen>
+    <!-- ****************************************************************************************-->
+
+    <!-- Guillotine screen dimens-->
+    <dimen name="guillotine_small_margin">24dp</dimen>
+    <dimen name="guillotine_medium_margin">48dp</dimen>
+    <dimen name="guillotine_large_margin">100dp</dimen>
+    <dimen name="guillotine_divider_height">40dp</dimen>
+
+    <dimen name="guillotine_item_text_size">20sp</dimen>
+    <dimen name="guillotine_actionbar_background_view_height">35dp</dimen>
+
+</resources>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="material_design.soussi.com.events_tunisie.Choix_ville">
+    <item android:id="@+id/action_aide" android:title="@string/action_aide"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/refresh_"/>
+
+
+
+    <item android:id="@+id/action_gps" android:title="@string/action_gps"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/gps"/>
+
+    <item android:id="@+id/action_facebook" android:title="@string/action_contact_facebook"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/facebook"/>
+
+    <item android:id="@+id/action_parametre" android:title="@string/action_parametre"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/settings"/>
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/close"/>
+</menu>

@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">خرجة</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Quitter</string>
+    <string name="action_aide">Actualisation</string>
+    <string name="action_parametre">Paramétres</string>
+    <string name="action_gps">Activée GPS</string>
+    <string name="action_ville">Try again</string>
+    <string name="action_contact_facebook">Rejoignez nous sur facebook</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_lists_events">Lists_events</string>
+
+    <string name="nav_item_home">Liste des événements</string>
+    <string name="nav_item_friends">Autour de moi</string>
+    <string name="nav_item_notifications">Categories</string>
+    <string name="nav_item_date">Par ville</string>
+    <string name="nav_item_noter">Les mieux notés</string>
+    <string name="nav_item_parametre">Paramètres</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+       <item>@string/nav_item_date</item>
+        <item>@string/nav_item_noter</item>
+        <item>@string/nav_item_parametre</item>
+    </string-array>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="labels_icons">
+        <item>@drawable/lists_events</item>
+        <item>@drawable/lists_events</item>
+        <item>@drawable/lists_events</item>
+        <item>@drawable/lists_events</item>
+        <item>@drawable/lists_events</item>
+        <item>@drawable/lists_events</item>
+    </string-array>
+
+    <string name="title_activity_fullscreen">خرجة</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_maps_events">Maps_events</string>
+    <string name="title_activity_favoris_fragment">Favoris_fragment</string>
+    <string name="title_activity_mapactivity">Mapactivity</string>
+    <string name="title_activity_descriptions">Descriptions</string>
+    <string name="title_activity_no_connexion">No_connexion</string>
+
+    <string name="cat_Sport">Sport</string>
+    <string name="cat_Politique">Politique</string>
+    <string name="cat_Theatre">Théâtre</string>
+    <string name="cat_Cinema">Cinéma</string>
+    <string name="cat_Soiree">Soirée</string>
+    <string name="cat_Foire">Foire</string>
+    <string name="cat_Clubbing">Clubbing</string>
+    <string name="cat_exposition">Expositions</string>
+    <string name="cat_concerts">Concerts</string>
+    <string name="cat_competitions">Compétitions</string>
+    <string name="cat_animations">Animations</string>
+    <string name="cat_festivals">Festival</string>
+
+    <string name="ville_Ariana">Ariana</string>
+    <string name="ville_Beja">Beja</string>
+    <string name="ville_BenArous">Ben Arous</string>
+    <string name="ville_Bizerte">Bizerte</string>
+    <string name="ville_Gabes">Gabes</string>
+    <string name="ville_Gafsa">Gafsa</string>
+    <string name="ville_Jendouba">Jendouba</string>
+    <string name="ville_Kairouan">Kairouan</string>
+    <string name="ville_Kasserine">Kasserine</string>
+    <string name="ville_Kebili">Kebili</string>
+    <string name="ville_Kef">Kef</string>
+    <string name="ville_Mahdia">Mahdia</string>
+    <string name="ville_Manouba">Manouba</string>
+    <string name="ville_Medenine">Medenine</string>
+    <string name="ville_Monastir">Monastir</string>
+    <string name="ville_Nabeul">Nabeul</string>
+    <string name="ville_Sfax">Sfax</string>
+    <string name="ville_SidiBouzid">Sidi Bouzid</string>
+    <string name="ville_Siliana">Siliana</string>
+    <string name="ville_Sousse">Sousse</string>
+    <string name="ville_Tataouine">Tataouine</string>
+    <string name="ville_Tozeur">Tozeur</string>
+    <string name="ville_Tunis">Tunis</string>
+    <string name="ville_Zaghouan">Zaghouan</string>
+    <string name="ville_touts"> Touts</string>
+
+    <string name="title_activity_choix_cat">Catégorie</string>
+    <string name="title_activity_youtube_activity_view">Youtube_activity_view</string>
+
+    <!-- ********************************pour pref **********************************************-->
+    <string-array name="themes">
+        <item>Device Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+
+    </string-array>
+
+    <string-array name="themes_values">
+        <item>default</item>
+        <item>light</item>
+        <item>dark</item>
+
+    </string-array>
+    <string name="title_activity_parametre">Parametre</string>
+
+    <!--  for gmc notification-->
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+
+    <string name="rfab_rfal__float_convert_color_alpha">0.7</string>
+    <string name="title_activity_events_par_date">Evénement par date</string>
+    <string name="title_activity_events_mieux_noter">Evénement mieux noter</string>
+
+    <string name="empty_message">Aucun événements disponible !</string>
+    <string name="loading_message">Please wait</string>
+    <string name="error_message">Oops! Something wrong happened</string>
+    <string name="empty_button">Try again</string>
+    <string name="loading_button">Cancel</string>
+    <string name="error_button">Try again</string>
+
+    <string-array name="list_villes">
+        <item>Touts</item>
+        <item>Sousse</item>
+        <item>Tunis</item>
+        <item>Sfax</item>
+        <item>Nabil</item>
+    </string-array>
+    <string name="title_activity_choix_ville">Villes</string>
+
+
+
+</resources>

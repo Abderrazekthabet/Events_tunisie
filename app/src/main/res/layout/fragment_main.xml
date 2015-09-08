@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material_design.soussi.com.events_tunisie.map_guide.RevealFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/image_content"
+            android:src="@drawable/header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+</material_design.soussi.com.events_tunisie.map_guide.RevealFrameLayout>
+
+

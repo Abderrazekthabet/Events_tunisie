@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+    <material_design.soussi.com.events_tunisie.preferance.PreferenceCategory
+        android:title="Appearance"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:key="appearance"
+
+        >
+
+       <ListPreference
+            android:key="themes"
+            android:title="Themes"
+            android:summary="Choisir votre thème par ici"
+            android:entries="@array/themes"
+            android:entryValues="@array/themes_values"
+            android:defaultValue="default"
+            />
+
+        </material_design.soussi.com.events_tunisie.preferance.PreferenceCategory>
+
+
+
+
+
+    <material_design.soussi.com.events_tunisie.preferance.PreferenceCategory
+        android:title="Notification"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:key="notification"
+
+        >
+        <material_design.soussi.com.events_tunisie.preferance.PreferanceCheckBox
+            android:key="p_notification"
+            android:title="Notifications"
+            android:icon="@drawable/mail1"
+            android:summary="Recevez des infos dans la barre d'état"
+            android:defaultValue="false"
+            />
+
+
+
+
+
+    </material_design.soussi.com.events_tunisie.preferance.PreferenceCategory>
+    <material_design.soussi.com.events_tunisie.preferance.PreferenceCategory
+        android:title="Version"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:key="version"
+
+        >
+        <material_design.soussi.com.events_tunisie.preferance.Preference
+            android:key="p_version"
+            android:icon="@drawable/version_pref"
+            android:title="Effacer toutes les données"
+            android:summary=""
+            />
+
+
+
+
+    </material_design.soussi.com.events_tunisie.preferance.PreferenceCategory>
+
+    <material_design.soussi.com.events_tunisie.preferance.PreferenceCategory
+        android:title="Réglages par défaut"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:key="reglage"
+
+        >
+        <material_design.soussi.com.events_tunisie.preferance.Preference
+            android:key="p_cache"
+            android:icon="@drawable/history_pref"
+            android:title="Reset"
+            android:summary=""
+            />
+
+
+
+
+    </material_design.soussi.com.events_tunisie.preferance.PreferenceCategory>
+
+    <material_design.soussi.com.events_tunisie.preferance.PreferenceCategory
+        android:title="Contactez nous sur"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:key="contact"
+
+        >
+        <material_design.soussi.com.events_tunisie.preferance.Preference
+            android:key="p_contact"
+            android:icon="@drawable/mail_pre"
+            android:title="Safe-Bytes Téchnologie"
+            android:summary="contact@safe-bytes.com"
+            />
+
+        <material_design.soussi.com.events_tunisie.preferance.Preference
+            android:key="p_facebook"
+            android:icon="@drawable/facebook"
+            android:title="خرجة"
+            android:summary="Consulter notre page facebook"
+            />
+
+
+
+
+    </material_design.soussi.com.events_tunisie.preferance.PreferenceCategory>
+
+    <material_design.soussi.com.events_tunisie.preferance.PreferenceCategory
+        android:title="A propos"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:key="propos"
+
+        >
+        <material_design.soussi.com.events_tunisie.preferance.Preference
+            android:key="p_propos"
+            android:icon="@drawable/propos_info"
+            android:title="Copyright 2015"
+            android:summary="Tous droits réservés"
+            />
+
+
+
+
+    </material_design.soussi.com.events_tunisie.preferance.PreferenceCategory>
+
+
+
+</PreferenceScreen>
+

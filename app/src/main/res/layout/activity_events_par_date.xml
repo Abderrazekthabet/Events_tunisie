@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="material_design.soussi.com.events_tunisie.Events_par_date">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_event_par_date"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#2196F3"
+        />
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_event_par_date"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/toolbar_event_par_date"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+</RelativeLayout>
