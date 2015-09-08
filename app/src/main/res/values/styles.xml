@@ -179,7 +179,7 @@
     <!--Menu style-->
 
     <style name="ActionBarPopupThemeOverlay" parent="ThemeOverlay.AppCompat.Light" >
-    <item name="android:background">@color/link_text_material_light</item>
+    <item name="android:background">@drawable/font</item>
     <item name="android:textColor">@android:color/white</item>
     <item name="android:textStyle">italic</item>
     <item name="android:textSize">18sp</item>
