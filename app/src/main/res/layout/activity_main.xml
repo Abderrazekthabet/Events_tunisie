@@ -16,11 +16,7 @@
         app:popupTheme="@style/ActionBarPopupThemeOverlay"
 
         android:elevation="4dp">
-        <!--<ImageView
-            android:id="@+id/content_hamburger"
-            style="@style/ImageView.Hamburger"
 
-            android:src="@drawable/ic_menu" />
 
 
         <material_design.soussi.com.events_tunisie.menu_toolbar.widget.CanaroTextView
